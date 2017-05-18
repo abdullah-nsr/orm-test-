@@ -1,0 +1,14 @@
+[{
+    "name": "default",
+    "driver": {
+        "type": "mysql",
+        "host": "localhost",
+        "username": "root",
+        "password": "099133",
+        "database": "school"
+    },
+    "entities": [
+        "./entity/*.ts"
+    ],
+    "autoSchemaSync": true
+}]
