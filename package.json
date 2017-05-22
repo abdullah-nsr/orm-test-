@@ -1,29 +1,29 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "npm run build:live",
-    "build:live": "nodemon --exec C:/Users/sa/Desktop/Exercises1/school/node_modules/.bin/ts-node -- ./index.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "gitolite3@devugees.online:nodejs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^7.0.12",
-    "nodemon": "^1.11.0",
-    "ts-node": "^3.0.2",
-    "typescript": "^2.2.2"
-  },
-  "dependencies": {
-    "@types/node": "^7.0.18",
-    "mysql": "^2.13.0",
-    "reflect-metadata": "^0.1.10",
-    "typeorm": "0.0.11"
-  }
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build:live",
+        "build:live": "nodemon --exec C:/Users/sa/Desktop/Exercises1/orm-test-/node_modules/.bin/ts-node -- ./index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "gitolite3@devugees.online:nodejs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^7.0.12",
+        "nodemon": "^1.11.0",
+        "ts-node": "^3.0.2",
+        "typescript": "^2.2.2"
+    },
+    "dependencies": {
+        "@types/node": "^7.0.18",
+        "mysql": "^2.13.0",
+        "reflect-metadata": "^0.1.10",
+        "typeorm": "0.0.11"
+    }
 }

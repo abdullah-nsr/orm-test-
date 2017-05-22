@@ -2,6 +2,7 @@
     "name": "default",
     "driver": {
         "type": "mysql",
+        "port": 3306,
         "host": "localhost",
         "username": "root",
         "password": "099133",
