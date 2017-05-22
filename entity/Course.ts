@@ -6,7 +6,9 @@ export class Course {
     @PrimaryGeneratedColumn()
     id: number;
 
-    @Column()
+    @Column({
+        length:20
+    })
     name: string
 
     @Column()

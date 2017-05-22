@@ -11,7 +11,7 @@ createConnection().then(connection => {
     let c = new Course();
     c.name = "Course 1"
     c.start_date = new Date();
-
+    
     let repo = connection.getRepository(Course);
     repo.persist(c);
 
@@ -20,6 +20,6 @@ createConnection().then(connection => {
            res.send(JSON.stringify(courses));
           });   
      });
-});
+}).catch(error => console.log(error));
 
 app.listen(3000);
